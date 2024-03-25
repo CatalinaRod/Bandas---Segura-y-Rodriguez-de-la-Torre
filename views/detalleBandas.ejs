@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<body>
+  <div>
+    <h1><%= listado.nombre %></h1>
+    <a href="/banda/genero/<%= listado.genero %>"><li>Genero: <%= listado.genero %></a>
+    <li>Cantidad de integrantes: <%= listado.integrantes %></li>
+    <li>Imagen:</li>
+    <img src="/<%= listado.cover %>" alt="<%  %>" width="300">
+    <li>Mejores Canciones: <%= listado.topCanciones %></li>
+  </div>  
+</body>
+</html>

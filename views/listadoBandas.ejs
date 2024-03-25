@@ -1,0 +1,13 @@
+<h1>Listado Bandas</h1>
+<main>
+    <section>
+        <ul>
+            <% for( let i = 0; i < listado.length; i++ ) { %>
+           <div> <a href="/banda/id/<%= listado[i].id %>"><li>Nombre: <%= listado[i].nombre %></a>
+                <img src="<%= listado[i].cover %>" alt="<% %>" width="300">
+                </li>
+            </div>
+            <% } %>
+        </ul>
+    </section>
+</main>
